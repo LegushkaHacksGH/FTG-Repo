@@ -1,2 +1,3 @@
-# FTG-Repo
-ftg modules for user-bot
+# FTG Modules Repo
+
+Modules for Friendly-Telegram User Bot 
