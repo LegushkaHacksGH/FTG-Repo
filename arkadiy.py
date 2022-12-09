@@ -38,7 +38,7 @@ class JacquesMod(loader.Module):
 		else:
 			txt = utils.get_args_raw(message)
 		await message.edit("<b>Ждём... :0</b>")
-		pic = requests.get("https://raw.githubusercontent.com/LegushkaHacksGH/FTG-Stuff/main/arkadiy2.png")
+		pic = requests.get("https://raw.githubusercontent.com/LegushkaHacksGH/FTG-Stuff/main/arkadiy.png")
 		pic.raw.decode_content = True
 		img = Image.open(io.BytesIO(pic.content)).convert("RGB")
  
